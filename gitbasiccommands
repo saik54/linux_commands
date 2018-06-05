@@ -1,0 +1,50 @@
+config commands:
+$ git config --global user.name "any name"
+$ git config --global user.email "xz@mail.com"
+$ git config --global push.default "simple"    #if version bellow 1.7 use current#
+
+initilize command:
+
+$git init
+
+
+Basic Coomands:
+
+$ git add <pathof the file/foldername/.>
+
+$ git status
+
+$ git commite -m "any message"
+
+$ git push 
+
+$ git pull
+
+$ git log
+
+$ git branch
+
+$ git branch <branchname>
+
+$ git checkout <branchname>
+
+$ git merge <src_branch> <dest_branch>
+
+$ git push -u -all
+$ git stash 
+$ git stash list
+$ git stash show
+$ git stash clear
+
+
+$ git revert <commit-ID>
+
+$ git reset <file>
+$ git reset --soft/mixed/harde
+
+$git rm <filename>
+
+$git clean -n
+$ git clean -f 
+
+$ git tag -a <pattern> -m "cooment" <coomit_id>
